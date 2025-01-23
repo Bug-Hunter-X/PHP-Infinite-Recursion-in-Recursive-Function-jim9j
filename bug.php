@@ -1,0 +1,1 @@
+This code suffers from a potential infinite recursion issue if the `$recursiveFunction` calls itself with a value of `$n` that never reaches 0.  The lack of a base case that terminates the recursion can lead to a stack overflow error.
