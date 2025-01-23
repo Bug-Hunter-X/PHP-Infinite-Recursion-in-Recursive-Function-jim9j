@@ -1,0 +1,1 @@
+The solution adds a proper base case to the recursive function. The function now checks if `$n` is equal to 0. If it is, the function returns 0, thus terminating the recursion and preventing a stack overflow.  The added condition ensures the function correctly handles the base case, preventing infinite recursion. 
